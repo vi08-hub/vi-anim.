@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+h1{font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal}
+
+h2{ font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+line-height: 25px;
+  color:#ea523d ;
+text-align: center;}
+
+p{font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+text-align: center;}
+
+
+.en{
+    background-color: rgb(159, 243, 243);
+  padding: 5px;
+padding-left: 7px
+ 
+}
+
+.inlineblock {
+        
+           background-color: #E85B4A;
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            margin: 1%;
+            display: inline-block;
+            height:260px;
+            width: 280px;
+            text-align: center;
+            animation: rotarAnim 10s infinite linear;}
+           
+            .inlineblock  {
+    font-size: 14px;
+    
+}
+            
+           
+        .subtitulo {
+    background-color: #E85B4A;
+     color: rgb(216, 223, 83) ;
+    padding: 10px;
+  
+    margin-left: 1%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+ 
+    @keyframes rotarAnim{
+        0% {
+            transform: rotate(0deg);
+        }
+ 
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+    
+    .ejemplos {
+            background-color: #8FD6D3;
+            display:inline-block;
+            vertical-align: top;
+            height: 260px;
+            width: 280px;
+            padding: 10px;
+            margin: 1%;
+        }
+
+.mover{
+    display: inline-block;
+    background-color: #8FD6D3;
+    vertical-align: top;
+    height: 260px;
+    width: 280px;
+    padding: 10px;
+    margin: 1%;
+    animation: move 3s infinite ease-in-out alternate;
+   
+}
+
+@keyframes move { 
+  0% {transform: translateX(0);
+  }
+  100% 
+  {transform: translateX(100px);
+  }
+}
+.carac{background-color:#ea523d;
+    padding: 5px;
+    padding-left: 7px;
+    color: rgb(216, 223, 83) ;
+    text-align: center;
+    animation: escalarAnim 3s infinite ease-in-out;
+}
+@keyframes escalarAnim {0% {transform: scale(1);}
+ 
+        100% { transform: scale(1.5);}}
+
+
+.bloquecarac{
+    display:inline-block;
+    text-align: center;
+    background-color: rgb(154, 211, 204);
+    height:260px;
+    width: 280px;
+    padding: 10px;
+    margin: 1%;
+    margin-top: 2%;}
+
+.ux{
+  background-color:#8FD6D3;
+  padding: 5px;
+  padding-left: 7px;
+  text-align: center;
+  animation: uxAnim 3s infinite ease-in-out;
+}
+
+.bloqueus{
+  background-color:#8FD6D3;
+    display:inline-block;
+    vertical-align: top;
+    height:260px;
+    width: 280px;
+    padding: 10px;
+    margin: 1%;
+}
+
+@keyframes uxAnim {
+      0% {
+          background-color: #8FD6D3;
+        }
+ 
+      100% {
+          background-color: #d6e85a;
+        }
+    }
+
+    .centrar{ display: block;
+text-align: center; }
+
+
+.inlineblock {
+            background: #D6E85A;
+            color: #E85B4A;
+            padding: 10px;
+            margin: 10px;
+            display: inline-block;
+            width: 1024px;
+            height: 200px;
+            text-align: center;
+          }
+
+.animacióntodo {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animaciónfinalporfavor 5s infinite ease-in-out;
+}
+
+@keyframes animaciónfinalporfavor {
+    0% {
+        transform: translateX(0) scale(1) rotate(0deg);
+        background-color: crimson;
+    }
+
+    50% {
+        transform: translateX(75px) scale(1.5) rotate(180deg);
+        background-color: dodgerblue;
+    }
+
+    100% {
+        transform: translateX(150px) scale(1) rotate(360deg);
+        background-color: crimson;
+    }
+}

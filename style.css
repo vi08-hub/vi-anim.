@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+Header {background-color: #e3e3e3; height: 115px; }
+
+.menu{ background-color:#ea523d;
+ font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+ color: rgb(255, 255, 255);
+ font-size:20px;
+display: flex;
+justify-content: space-around;}
+
+a{ display: block;
+text-align: center; 
+margin-top: 50px;
+}
+
+#slideshow {
+    width: 500%;             
+    max-width: 1920px;
+    aspect-ratio: 16 / 9;       
+    margin: 0 auto;          
+    overflow: hidden;        
+    position: relative;
+}
+      
+.slide-wrapper {
+    display: flex;
+    width: 500%;
+    animation: slide 15s infinite ease-in-out;
+    margin-top: 80px;
+    height: 1920px;
+}
+      
+      
+.quees {
+  width: 1920px;
+  height: auto;
+  display: block;
+  flex-shrink: 0;    
+  box-sizing: border-box;
+}
+      
+.ejemplos {
+    width: 1920px;
+    height: auto;
+    display: block;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+      
+.caracteristicas {
+    width: 1920px;
+    height: auto;
+    display: block;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+      
+.porque {
+    width: 1920px;
+    height: auto;
+    display: block;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+      
+.importancias{
+    width: 1920px;
+    height: auto;
+    display: block;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.slide-wrapper img {
+  width: 1920px;
+  height: auto;
+  display: block;
+}
+
+@keyframes slide{
+   0%, 15% {
+    transform: translateX(0%);}       
+  20%, 35% {
+    transform: translateX(-20%);}      
+  40%, 55% {
+    transform: translateX(-40%);  }    
+  60%, 75% {
+    transform: translateX(-60%); }     
+  80%, 95% {
+    transform: translateX(-80%);}   
+  100% {
+    transform: translateX(0%);
+  }
+}
+  
